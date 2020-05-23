@@ -67,12 +67,6 @@ public:
     // check if two list are not equal
     bool operator!= (List<T> const &otherList) const;
 
-    void moveToEnd(const T& target);
-
-    void doSomethingFun();
-
-    void removeEveryOther();
-
 private:
     struct Node {              // the node in a linked list
         T* data;               // pointer to actual data, operations in T
